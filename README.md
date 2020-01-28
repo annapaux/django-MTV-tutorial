@@ -14,6 +14,8 @@ navigate to: .../coffee-app/coffee_project
 Open the website in the browser: http://127.0.0.1:8000/
 
 
+![alt text](https://github.com/annapaux/django-coffee-MTV/blob/master/coffee_img.png)
+
 # Replicate this app
 
 ### Tutorial Resources
