@@ -1,0 +1,14 @@
+<html>
+
+   <body>
+      <h1>Hello there!</h1>
+      <p>Today is {{ today }} </p>
+      Time for coffee!
+
+      <h3>Current users:</h3>
+      {% for user in users %}
+        <p> {{ user.name }} who you can contact at {{ user.email }} </p>
+      {% endfor %}
+   </body>
+
+</html>
