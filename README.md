@@ -146,14 +146,14 @@ In the shell run the following commands:
 ```
 from app.models import User
 u = User()
-u.name = 'Anna'
-u.email = 'anna@minerva.kgi.edu'
+u.name = 'Maria'
+u.email = 'maria@gmail.com'
 u.phone = '0123456789'
 u.save()
 
 u = User()
 u.name = 'Nguyen'
-u.email = 'nguyen@minerva.kgi.edu'
+u.email = 'nguyen@gmail.com'
 u.phone = '2345678901'
 u.save()
 ```
@@ -166,4 +166,4 @@ python manage.py runserver
 ```
 
 # Tada!
-You have a Model-View-Control or Model-Template-View application! 
+You have a Model-View-Control or Model-Template-View application!
